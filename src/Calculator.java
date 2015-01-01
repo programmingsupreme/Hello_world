@@ -11,7 +11,15 @@ public class Calculator {
 	  */
 	public static void main(String[] args) {
 		System.out.println("Now to do some operations.");
-		
+		System.out.println("What is 3+4?");
+		add(3,4);
+		System.out.println("what is 7-8?");
+		sub(7,8);
+		System.out.println("What is 67*34?");
+		multi(67,34);
+		System.out.println("What is 234/23?");
+		divide(234,23);
+		System.out.println("All were done by self created methods.");
 	}
 	public static void add(double num_1,double num_2){
 		double num_3=num_1+num_2;
