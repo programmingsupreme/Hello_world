@@ -18,6 +18,7 @@ public class Helloworld {
 		 * Reference: types of variables are; boolean,byte,char,
 		 * double,float,integer,long,short
 		 */
-		
+		Methods mySentcence = new Methods();
+		mySentcence.sayhello();
 	}
 }
